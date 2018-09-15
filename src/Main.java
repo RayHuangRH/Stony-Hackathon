@@ -114,7 +114,7 @@ public class Main extends Application {
 		Button playBtn = new Button("How to Play");
 		playBtn.setOnAction(e -> {
 			stage.getScene().setRoot(howRoot);
-		});
+		}); 
 		Button exitBtn = new Button("Quit");
 		exitBtn.setOnAction(e -> {
 			stage.getScene().setRoot(exitRoot);
